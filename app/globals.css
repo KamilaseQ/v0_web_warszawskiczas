@@ -2,33 +2,39 @@
 
 @theme inline {
   /* Premium Luxury Color Palette - Warszawski Czas */
-  --color-background: oklch(0.985 0.002 90);
+  /* Biel dominuje, złoto i szmaragd jako akcenty */
+  --color-background: oklch(0.99 0.002 90);
   --color-foreground: oklch(0.145 0.015 30);
   
-  /* Card & Surface Colors */
-  --color-card: oklch(0.995 0 0);
+  /* Card & Surface Colors - czysta biel */
+  --color-card: oklch(1 0 0);
   --color-card-foreground: oklch(0.145 0.015 30);
   
   /* Muted & Secondary */
-  --color-muted: oklch(0.94 0.008 90);
+  --color-muted: oklch(0.96 0.005 90);
   --color-muted-foreground: oklch(0.45 0.02 30);
   
-  /* Primary - Deep Forest Green (restrained luxury accent) */
-  --color-primary: oklch(0.28 0.06 150);
-  --color-primary-foreground: oklch(0.98 0 0);
+  /* Primary - Refined Gold (główny akcent) */
+  --color-primary: oklch(0.72 0.12 75);
+  --color-primary-foreground: oklch(0.15 0.02 30);
   
   /* Secondary - Warm Cream */
-  --color-secondary: oklch(0.96 0.015 80);
+  --color-secondary: oklch(0.97 0.01 80);
   --color-secondary-foreground: oklch(0.25 0.02 30);
   
-  /* Accent - Refined Gold (used sparingly) */
-  --color-accent: oklch(0.72 0.12 75);
-  --color-accent-foreground: oklch(0.18 0.02 30);
+  /* Accent - Deep Emerald (szmaragdowy akcent) */
+  --color-accent: oklch(0.45 0.15 160);
+  --color-accent-foreground: oklch(0.98 0 0);
+  
+  /* Emerald variants */
+  --color-emerald: oklch(0.45 0.15 160);
+  --color-emerald-light: oklch(0.55 0.12 160);
+  --color-emerald-glow: oklch(0.45 0.15 160 / 0.15);
   
   /* Borders & Inputs */
-  --color-border: oklch(0.88 0.01 90);
-  --color-input: oklch(0.88 0.01 90);
-  --color-ring: oklch(0.28 0.06 150);
+  --color-border: oklch(0.90 0.008 90);
+  --color-input: oklch(0.90 0.008 90);
+  --color-ring: oklch(0.45 0.15 160);
   
   /* Semantic Colors */
   --color-destructive: oklch(0.55 0.2 25);
